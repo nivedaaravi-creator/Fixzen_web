@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Analytics - FixZen</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif;
+            background: var(--gradient-hero);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            min-height: 100vh;
+            margin: 0;
+            color: var(--ink);
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .container { 
+            max-width: 1200px; 
+            margin: 30px auto; 
+            padding: 0 20px; 
+        }
+        
+        .hero-section {
+            text-align: center;
+            padding: 60px 0 40px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(124,58,237,0.8), transparent);
+        }
+        
+        .hero-title {
+            font-size: 48px;
+            background: linear-gradient(135deg, #1e40af, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--muted);
+            margin-bottom: 0;
+        }
+            margin-bottom: 16px;
+        }
+        .analytics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+        .chart-card {
+            background: rgba(255,255,255,0.9);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px;
+            padding: 32px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.4s ease;
+        }
+        .chart-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+        .chart-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--brand);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">FixZen</div>
+        <div class="nav-links">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('healing_page') }}">Healing</a>
+            <a href="{{ url_for('crack_page') }}">Crack</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>💠 Daily Healing Analytics</h2>
+        <p>Key metrics and trend of water usage per day.</p>
+
+        <div class="grid">
+            <div class="tile"><h3>Total Users</h3><div class="big">{{ metrics.total_users }}</div></div>
+            <div class="tile"><h3>Total Healings</h3><div class="big">{{ metrics.total_healings }}</div></div>
+            <div class="tile"><h3>Total Cracks</h3><div class="big">{{ metrics.total_cracks }}</div></div>
+            <div class="tile"><h3>Avg Water (L)</h3><div class="big">{{ metrics.avg_water }}</div></div>
+        </div>
+
+        <div class="chart-section">
+            <h3>📊 Water Used Per Day</h3>
+            <canvas id="progressChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        const labels = {{ chart_labels|tojson }};
+        const values = {{ chart_values|tojson }};
+        const ctx = document.getElementById('progressChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels,
+                datasets: [{
+                    label: 'Total Water (L)',
+                    data: values,
+                    borderColor: '#2563eb',
+                    backgroundColor: 'rgba(37,99,235,0.2)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.3
+                }]
+            },
+            options: { responsive: true, plugins: { legend: { position: 'bottom' } }, scales: { y: { beginAtZero: true } } }
+        });
+    </script>
+</body>
+</html>
+

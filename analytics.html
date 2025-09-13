@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healing Analytics - FixZen</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: #ffffff; color: #1a1a1a; }
+        .navbar { background: #1e3a8a; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; color: white; }
+        .navbar .logo { font-size: 22px; font-weight: bold; display: flex; align-items: center; }
+        .navbar .nav-links a { color: white; text-decoration: none; margin-left: 20px; font-size: 16px; transition: 0.3s; }
+        .navbar .nav-links a:hover { color: #93c5fd; }
+        .container { max-width: 1000px; margin: 40px auto; padding: 20px; }
+        h2 { color: #1e3a8a; margin-bottom: 10px; }
+        p { margin-bottom: 20px; color: #333; }
+        .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 14px 0 24px; }
+        .tile { background: #eef2ff; border: 1px solid #c7d2fe; border-radius: 10px; padding: 16px; text-align: center; }
+        .tile h3 { font-size: 13px; color: #334155; }
+        .tile .big { font-size: 26px; font-weight: 800; color: #1e3a8a; margin-top: 6px; }
+        .chart-section { margin-top: 24px; padding: 20px; border: 2px solid #2563eb; border-radius: 10px; background: #f0f9ff; }
+        .chart-section h3 { text-align: center; margin-bottom: 20px; color: #1e3a8a; }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">FixZen</div>
+        <div class="nav-links">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('healing_page') }}">Healing</a>
+            <a href="{{ url_for('crack_page') }}">Crack</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>💠 Daily Healing Analytics</h2>
+        <p>Key metrics and trend of water usage per day.</p>
+
+        <div class="grid">
+            <div class="tile"><h3>Total Users</h3><div class="big">{{ metrics.total_users }}</div></div>
+            <div class="tile"><h3>Total Healings</h3><div class="big">{{ metrics.total_healings }}</div></div>
+            <div class="tile"><h3>Total Cracks</h3><div class="big">{{ metrics.total_cracks }}</div></div>
+            <div class="tile"><h3>Avg Water (L)</h3><div class="big">{{ metrics.avg_water }}</div></div>
+        </div>
+
+        <div class="chart-section">
+            <h3>📊 Water Used Per Day</h3>
+            <canvas id="progressChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        const labels = {{ chart_labels|tojson }};
+        const values = {{ chart_values|tojson }};
+        const ctx = document.getElementById('progressChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels,
+                datasets: [{
+                    label: 'Total Water (L)',
+                    data: values,
+                    borderColor: '#2563eb',
+                    backgroundColor: 'rgba(37,99,235,0.2)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.3
+                }]
+            },
+            options: { responsive: true, plugins: { legend: { position: 'bottom' } }, scales: { y: { beginAtZero: true } } }
+        });
+    </script>
+</body>
+</html>

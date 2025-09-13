@@ -1,0 +1,1321 @@
+2025-09-12 14:18:35,832 INFO __main__ API blueprint registered successfully
+2025-09-12 14:18:49,786 INFO __main__ API blueprint registered successfully
+2025-09-12 14:19:27,513 INFO __main__ API blueprint registered successfully
+2025-09-12 14:19:39,090 INFO __main__ API blueprint registered successfully
+2025-09-12 14:20:53,715 INFO __main__ API blueprint registered successfully
+2025-09-12 14:20:53,721 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:20:53,772 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 14:20:53,773 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 14:20:53,798 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 14:20:54,489 INFO __main__ API blueprint registered successfully
+2025-09-12 14:20:54,495 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:20:54,517 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:20:54,526 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 14:21:47,518 INFO __main__ API blueprint registered successfully
+2025-09-12 14:21:47,520 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:21:47,584 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 14:21:47,584 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 14:21:47,587 INFO werkzeug  * Restarting with stat
+2025-09-12 14:21:48,096 INFO __main__ API blueprint registered successfully
+2025-09-12 14:21:48,100 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:21:48,129 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:21:48,136 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:21:54,349 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:21:54] "GET / HTTP/1.1" 200 -
+2025-09-12 14:21:54,664 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:21:54] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-12 14:21:54,669 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:21:54] "GET /static/app.js HTTP/1.1" 200 -
+2025-09-12 14:21:57,462 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:21:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 14:22:10,932 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:22:10] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 14:22:10,965 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:22:10] "GET /reports HTTP/1.1" 200 -
+2025-09-12 14:22:10,984 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:22:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 14:22:10,985 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:22:10] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 14:22:16,944 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:22:16] "GET /reports HTTP/1.1" 200 -
+2025-09-12 14:22:16,971 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:22:16] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 14:22:16,973 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:22:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 14:23:46,040 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:23:46,041 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:23:46,042 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:23:46,946 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:23:47,072 INFO werkzeug  * Restarting with stat
+2025-09-12 14:23:47,278 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 14:23:47,714 INFO __main__ API blueprint registered successfully
+2025-09-12 14:23:47,717 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:23:47,758 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:23:47,763 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:23:48,051 INFO __main__ API blueprint registered successfully
+2025-09-12 14:23:48,056 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:23:48,082 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:23:48,094 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 14:24:06,757 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:24:06,758 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:24:06,759 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:24:07,213 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:24:07,377 INFO werkzeug  * Restarting with stat
+2025-09-12 14:24:07,828 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 14:24:08,119 INFO __main__ API blueprint registered successfully
+2025-09-12 14:24:08,122 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:24:08,162 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:24:08,170 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:24:08,672 INFO __main__ API blueprint registered successfully
+2025-09-12 14:24:08,679 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:24:08,711 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:24:08,724 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 14:25:28,044 INFO __main__ API blueprint registered successfully
+2025-09-12 14:25:28,047 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:25:28,105 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 14:25:28,106 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 14:25:28,108 INFO werkzeug  * Restarting with stat
+2025-09-12 14:25:28,616 INFO __main__ API blueprint registered successfully
+2025-09-12 14:25:28,618 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:25:28,662 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:25:28,670 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:25:33,929 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:33] "GET / HTTP/1.1" 200 -
+2025-09-12 14:25:34,130 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:34] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 14:25:34,132 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 14:25:42,278 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:42] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 14:25:42,305 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:42] "GET /reports HTTP/1.1" 200 -
+2025-09-12 14:25:42,326 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:42] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 14:25:42,326 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 14:25:54,284 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:54] "GET /reports HTTP/1.1" 200 -
+2025-09-12 14:25:54,309 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 14:25:54,312 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:25:54] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 14:26:01,112 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:26:01] "GET /reports HTTP/1.1" 200 -
+2025-09-12 14:26:01,135 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:26:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 14:26:01,140 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:26:01] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 14:27:44,367 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:27:44,368 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:27:44,412 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:27:44,582 INFO werkzeug  * Restarting with stat
+2025-09-12 14:27:45,236 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:27:45,356 INFO werkzeug  * Restarting with stat
+2025-09-12 14:27:45,535 INFO __main__ API blueprint registered successfully
+2025-09-12 14:27:45,537 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:27:45,591 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:27:45,604 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:27:45,899 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 14:27:46,017 INFO __main__ API blueprint registered successfully
+2025-09-12 14:27:46,021 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:27:46,063 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:27:46,071 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:27:46,710 INFO __main__ API blueprint registered successfully
+2025-09-12 14:27:46,715 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:27:46,744 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:27:46,755 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 14:28:09,109 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:28:09,111 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:28:09,112 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:28:09,305 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:28:09,444 INFO werkzeug  * Restarting with stat
+2025-09-12 14:28:09,666 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:28:09,817 INFO werkzeug  * Restarting with stat
+2025-09-12 14:28:10,195 INFO __main__ API blueprint registered successfully
+2025-09-12 14:28:10,198 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:28:10,242 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:28:10,249 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:28:10,375 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 14:28:10,500 INFO __main__ API blueprint registered successfully
+2025-09-12 14:28:10,502 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:28:10,541 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:28:10,549 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:28:11,170 INFO __main__ API blueprint registered successfully
+2025-09-12 14:28:11,176 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:28:11,203 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:28:11,215 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 14:28:53,946 INFO __main__ API blueprint registered successfully
+2025-09-12 14:28:53,949 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:28:54,006 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 14:28:54,007 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 14:28:54,010 INFO werkzeug  * Restarting with stat
+2025-09-12 14:28:54,595 INFO __main__ API blueprint registered successfully
+2025-09-12 14:28:54,598 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:28:54,636 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:28:54,647 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:29:00,652 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:00] "GET / HTTP/1.1" 200 -
+2025-09-12 14:29:00,836 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:00] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 14:29:00,845 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 14:29:09,686 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:09] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 14:29:09,698 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:09] "GET / HTTP/1.1" 200 -
+2025-09-12 14:29:09,718 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 14:29:09,719 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:09] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 14:29:14,257 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:14] "GET /reports HTTP/1.1" 200 -
+2025-09-12 14:29:14,272 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 14:29:14,275 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 14:29:14] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 14:30:35,985 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:30:35,987 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:30:36,306 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:30:36,318 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:30:36,481 INFO werkzeug  * Restarting with stat
+2025-09-12 14:30:36,490 INFO werkzeug  * Restarting with stat
+2025-09-12 14:30:36,917 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 14:30:37,055 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 14:30:37,159 INFO werkzeug  * Restarting with stat
+2025-09-12 14:30:37,532 INFO __main__ API blueprint registered successfully
+2025-09-12 14:30:37,535 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:30:37,579 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:30:37,586 INFO __main__ API blueprint registered successfully
+2025-09-12 14:30:37,589 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:30:37,589 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:30:37,629 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:30:37,641 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:30:37,883 INFO __main__ API blueprint registered successfully
+2025-09-12 14:30:37,887 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:30:37,929 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:30:37,937 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 14:30:38,063 INFO __main__ API blueprint registered successfully
+2025-09-12 14:30:38,070 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:30:38,100 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:30:38,118 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 14:31:36,553 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\clear_demo_data.py', reloading
+2025-09-12 14:31:36,567 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\clear_demo_data.py', reloading
+2025-09-12 14:31:36,567 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\clear_demo_data.py', reloading
+2025-09-12 14:31:37,815 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 14:31:38,870 INFO __main__ API blueprint registered successfully
+2025-09-12 14:31:38,874 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 14:31:38,898 WARNING werkzeug  * Debugger is active!
+2025-09-12 14:31:38,909 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 15:25:29,049 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 15:25:29] "GET / HTTP/1.1" 200 -
+2025-09-12 15:25:29,129 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 15:25:29] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-12 15:25:29,138 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 15:25:29] "GET /static/app.js HTTP/1.1" 200 -
+2025-09-12 19:03:07,770 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:03:07,914 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:03:07,924 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:03:07,958 INFO werkzeug  * Restarting with stat
+2025-09-12 19:03:08,121 INFO werkzeug  * Restarting with stat
+2025-09-12 19:03:08,149 INFO werkzeug  * Restarting with stat
+2025-09-12 19:03:09,180 INFO __main__ API blueprint registered successfully
+2025-09-12 19:03:09,184 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:03:09,197 INFO __main__ API blueprint registered successfully
+2025-09-12 19:03:09,201 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:03:09,285 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:03:09,285 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:03:09,296 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:03:09,297 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:03:09,412 INFO __main__ API blueprint registered successfully
+2025-09-12 19:03:09,431 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:03:09,524 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:03:09,538 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:03:28,920 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:03:28,929 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:03:29,068 INFO werkzeug  * Restarting with stat
+2025-09-12 19:03:29,073 INFO werkzeug  * Restarting with stat
+2025-09-12 19:03:29,100 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:03:29,230 INFO werkzeug  * Restarting with stat
+2025-09-12 19:03:29,766 INFO __main__ API blueprint registered successfully
+2025-09-12 19:03:29,768 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:03:29,770 INFO __main__ API blueprint registered successfully
+2025-09-12 19:03:29,772 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:03:29,806 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:03:29,812 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:03:29,816 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:03:29,819 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:03:29,886 INFO __main__ API blueprint registered successfully
+2025-09-12 19:03:29,889 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:03:29,927 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:03:29,934 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:03:43,201 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:03:43,202 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:03:43,302 INFO werkzeug  * Restarting with stat
+2025-09-12 19:03:43,307 INFO werkzeug  * Restarting with stat
+2025-09-12 19:03:43,381 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:03:43,533 INFO werkzeug  * Restarting with stat
+2025-09-12 19:03:43,984 INFO __main__ API blueprint registered successfully
+2025-09-12 19:03:43,986 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:03:43,987 INFO __main__ API blueprint registered successfully
+2025-09-12 19:03:43,990 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:03:44,023 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:03:44,026 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:03:44,032 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:03:44,033 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:03:44,112 INFO __main__ API blueprint registered successfully
+2025-09-12 19:03:44,114 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:03:44,149 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:03:44,155 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:06:07,365 INFO __main__ API blueprint registered successfully
+2025-09-12 19:06:07,368 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:06:07,448 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 19:06:07,448 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 19:06:07,451 INFO werkzeug  * Restarting with stat
+2025-09-12 19:06:07,970 INFO __main__ API blueprint registered successfully
+2025-09-12 19:06:07,972 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:06:08,005 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:06:08,012 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:06:35,719 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:06:35] "GET / HTTP/1.1" 200 -
+2025-09-12 19:06:35,886 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:06:35] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:06:35,889 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:06:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:07:00,222 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:00] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:07:00,249 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:00] "GET /login HTTP/1.1" 200 -
+2025-09-12 19:07:00,264 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:07:00,266 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:00] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:07:10,724 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:10] "POST /login HTTP/1.1" 200 -
+2025-09-12 19:07:10,748 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:07:10,748 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:10] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:07:17,245 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:17] "GET /signup HTTP/1.1" 200 -
+2025-09-12 19:07:17,266 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:17] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:07:17,268 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:07:37,250 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:07:37] "[31m[1mPOST /signup HTTP/1.1[0m" 409 -
+2025-09-12 19:08:05,532 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:05] "[31m[1mPOST /signup HTTP/1.1[0m" 409 -
+2025-09-12 19:08:32,486 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:32] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-09-12 19:08:32,498 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:32] "GET /login HTTP/1.1" 200 -
+2025-09-12 19:08:32,520 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:08:32,521 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:32] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:08:32,547 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:32] "[31m[1mPOST /signup HTTP/1.1[0m" 409 -
+2025-09-12 19:08:44,352 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-12 19:08:44,363 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:44] "GET / HTTP/1.1" 200 -
+2025-09-12 19:08:44,394 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:08:44,397 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:44] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:08:57,112 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:57] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:08:57,134 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:57] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:08:57,144 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:57] "GET / HTTP/1.1" 200 -
+2025-09-12 19:08:57,171 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:08:57,174 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:08:57] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:09:21,100 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:21] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:09:21,122 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:21] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:09:21,132 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:21] "GET / HTTP/1.1" 200 -
+2025-09-12 19:09:21,159 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:09:21,161 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:21] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:09:30,316 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:30] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:09:30,338 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:30] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:09:30,349 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:30] "GET / HTTP/1.1" 200 -
+2025-09-12 19:09:30,378 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:09:30,379 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:09:30] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:10:48,355 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:10:48,525 INFO werkzeug  * Restarting with stat
+2025-09-12 19:10:48,860 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:10:49,018 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:10:49,019 INFO werkzeug  * Restarting with stat
+2025-09-12 19:10:49,183 INFO werkzeug  * Restarting with stat
+2025-09-12 19:10:49,383 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:10:49,427 INFO __main__ API blueprint registered successfully
+2025-09-12 19:10:49,431 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:10:49,508 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:10:49,522 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:10:49,632 INFO werkzeug  * Restarting with stat
+2025-09-12 19:10:49,878 INFO __main__ API blueprint registered successfully
+2025-09-12 19:10:49,882 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:10:49,931 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:10:49,940 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:10:49,992 INFO __main__ API blueprint registered successfully
+2025-09-12 19:10:49,994 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:10:50,034 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:10:50,043 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:10:50,338 INFO __main__ API blueprint registered successfully
+2025-09-12 19:10:50,341 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:10:50,409 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:10:50,421 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:11:37,624 INFO __main__ API blueprint registered successfully
+2025-09-12 19:11:37,626 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:11:37,685 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 19:11:37,685 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 19:11:37,688 INFO werkzeug  * Restarting with stat
+2025-09-12 19:11:38,222 INFO __main__ API blueprint registered successfully
+2025-09-12 19:11:38,225 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:11:38,270 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:11:38,278 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:11:51,083 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:11:51] "GET / HTTP/1.1" 200 -
+2025-09-12 19:11:51,268 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:11:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:11:51,274 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:11:51] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:12:03,151 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:03] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:12:03,163 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:03] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:12:03,175 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:03] "GET / HTTP/1.1" 200 -
+2025-09-12 19:12:03,196 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:12:03,197 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:03] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:12:13,533 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:13] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:12:13,551 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:13] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:12:13,563 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:13] "GET / HTTP/1.1" 200 -
+2025-09-12 19:12:13,588 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:12:13,590 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:13] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:12:52,815 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:52] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:12:52,848 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:52] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:12:52,864 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:52] "GET / HTTP/1.1" 200 -
+2025-09-12 19:12:52,898 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:12:52,900 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:12:52] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:14:37,033 INFO __main__ API blueprint registered successfully
+2025-09-12 19:14:37,037 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:14:37,091 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 19:14:37,092 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 19:14:37,126 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 19:14:37,842 INFO __main__ API blueprint registered successfully
+2025-09-12 19:14:37,847 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:14:37,868 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:14:37,876 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 19:15:07,790 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:15:07,791 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:15:07,792 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:15:08,263 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:15:08,265 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:15:08,416 INFO werkzeug  * Restarting with stat
+2025-09-12 19:15:08,422 INFO werkzeug  * Restarting with stat
+2025-09-12 19:15:08,451 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:15:08,514 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 19:15:08,594 INFO werkzeug  * Restarting with stat
+2025-09-12 19:15:08,665 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:15:08,668 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:15:08,843 INFO werkzeug  * Restarting with stat
+2025-09-12 19:15:08,852 INFO werkzeug  * Restarting with stat
+2025-09-12 19:15:09,319 INFO __main__ API blueprint registered successfully
+2025-09-12 19:15:09,324 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:15:09,355 INFO __main__ API blueprint registered successfully
+2025-09-12 19:15:09,358 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:15:09,386 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:15:09,397 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:15:09,429 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:15:09,448 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:15:09,532 INFO __main__ API blueprint registered successfully
+2025-09-12 19:15:09,536 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:15:09,588 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:15:09,599 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:15:09,652 INFO __main__ API blueprint registered successfully
+2025-09-12 19:15:09,657 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:15:09,698 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:15:09,713 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 19:15:09,798 INFO __main__ API blueprint registered successfully
+2025-09-12 19:15:09,810 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:15:09,811 INFO __main__ API blueprint registered successfully
+2025-09-12 19:15:09,815 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:15:09,940 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:15:09,951 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:15:09,964 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:15:09,979 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:16:24,805 INFO __main__ API blueprint registered successfully
+2025-09-12 19:16:24,807 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:16:24,873 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 19:16:24,873 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 19:16:24,876 INFO werkzeug  * Restarting with stat
+2025-09-12 19:16:25,404 INFO __main__ API blueprint registered successfully
+2025-09-12 19:16:25,407 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:16:25,441 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:16:25,446 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:16:34,073 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:16:34] "GET / HTTP/1.1" 200 -
+2025-09-12 19:16:34,453 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:16:34] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:16:34,458 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:16:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:16:50,702 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:16:50] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:16:50,725 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:16:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:16:50,735 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:16:50] "GET / HTTP/1.1" 200 -
+2025-09-12 19:16:50,761 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:16:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:16:50,763 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:16:50] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:17:02,879 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:02] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:17:02,896 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:02] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:17:02,906 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:02] "GET / HTTP/1.1" 200 -
+2025-09-12 19:17:02,936 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:17:02,937 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:02] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:17:20,006 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:20] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:17:20,026 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:20] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:17:20,037 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:20] "GET / HTTP/1.1" 200 -
+2025-09-12 19:17:20,067 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:17:20,068 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:17:20] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:18:50,124 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:18:50,127 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:18:50,278 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:18:50,300 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:18:50,310 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:18:50,461 INFO werkzeug  * Restarting with stat
+2025-09-12 19:18:50,494 INFO werkzeug  * Restarting with stat
+2025-09-12 19:18:50,513 INFO werkzeug  * Restarting with stat
+2025-09-12 19:18:50,980 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:18:50,994 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:18:51,023 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 19:18:51,094 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:18:51,166 INFO werkzeug  * Restarting with stat
+2025-09-12 19:18:51,179 INFO werkzeug  * Restarting with stat
+2025-09-12 19:18:51,302 INFO werkzeug  * Restarting with stat
+2025-09-12 19:18:51,801 INFO __main__ API blueprint registered successfully
+2025-09-12 19:18:51,819 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:18:51,870 INFO __main__ API blueprint registered successfully
+2025-09-12 19:18:51,897 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:18:51,901 INFO __main__ API blueprint registered successfully
+2025-09-12 19:18:51,916 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:18:51,976 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:18:51,999 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:18:52,010 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:18:52,044 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:18:52,050 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:18:52,057 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:18:52,305 INFO __main__ API blueprint registered successfully
+2025-09-12 19:18:52,310 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:18:52,335 INFO __main__ API blueprint registered successfully
+2025-09-12 19:18:52,340 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:18:52,372 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:18:52,383 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:18:52,400 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:18:52,413 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:18:52,432 INFO __main__ API blueprint registered successfully
+2025-09-12 19:18:52,437 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:18:52,475 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:18:52,483 INFO __main__ API blueprint registered successfully
+2025-09-12 19:18:52,486 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:18:52,491 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 19:18:52,534 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:18:52,545 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:19:19,843 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\debug_reports.py', reloading
+2025-09-12 19:19:19,866 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\debug_reports.py', reloading
+2025-09-12 19:19:19,867 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\debug_reports.py', reloading
+2025-09-12 19:19:19,869 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\debug_reports.py', reloading
+2025-09-12 19:19:20,551 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\websocket_handler.py', reloading
+2025-09-12 19:19:20,554 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\middleware.py', reloading
+2025-09-12 19:19:21,169 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 19:19:22,301 INFO __main__ API blueprint registered successfully
+2025-09-12 19:19:22,306 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:19:22,341 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:19:22,351 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 19:28:13,953 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:28:13,954 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:28:13,984 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:28:14,121 INFO werkzeug  * Restarting with stat
+2025-09-12 19:28:14,122 INFO werkzeug  * Restarting with stat
+2025-09-12 19:28:14,148 INFO werkzeug  * Restarting with stat
+2025-09-12 19:28:14,270 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:28:14,308 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:28:14,348 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:28:14,480 INFO werkzeug  * Restarting with stat
+2025-09-12 19:28:14,529 INFO werkzeug  * Restarting with stat
+2025-09-12 19:28:14,597 INFO werkzeug  * Restarting with stat
+2025-09-12 19:28:15,182 INFO __main__ API blueprint registered successfully
+2025-09-12 19:28:15,186 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:28:15,261 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:28:15,274 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:28:15,401 INFO __main__ API blueprint registered successfully
+2025-09-12 19:28:15,410 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:28:15,534 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:28:15,545 INFO __main__ API blueprint registered successfully
+2025-09-12 19:28:15,548 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:28:15,550 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:28:15,582 INFO __main__ API blueprint registered successfully
+2025-09-12 19:28:15,588 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:28:15,603 INFO __main__ API blueprint registered successfully
+2025-09-12 19:28:15,608 INFO __main__ API blueprint registered successfully
+2025-09-12 19:28:15,609 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:28:15,616 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:28:15,664 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:28:15,675 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:28:15,694 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:28:15,695 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:28:15,711 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:28:15,715 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:28:15,765 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:28:15,779 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:29:02,901 INFO __main__ API blueprint registered successfully
+2025-09-12 19:29:02,904 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:29:03,015 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 19:29:03,016 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 19:29:03,019 INFO werkzeug  * Restarting with stat
+2025-09-12 19:29:04,050 INFO __main__ API blueprint registered successfully
+2025-09-12 19:29:04,054 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:29:04,116 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:29:04,126 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:29:10,265 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:10] "GET / HTTP/1.1" 200 -
+2025-09-12 19:29:10,796 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:29:10,804 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:10] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:29:24,090 INFO __main__ Submit report - Session data: {'user': 'rniveda05@gmail.com'}
+2025-09-12 19:29:24,090 INFO __main__ Submit report - User ID: None
+2025-09-12 19:29:24,096 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:24] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:29:24,121 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:24] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:29:24,137 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:24] "GET / HTTP/1.1" 200 -
+2025-09-12 19:29:24,175 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:29:24,177 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:24] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:29:27,873 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:27] "GET /reports HTTP/1.1" 200 -
+2025-09-12 19:29:27,912 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:29:27,920 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:29:27] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:31:10,344 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:31:10,489 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:31:10,511 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:31:10,525 INFO werkzeug  * Restarting with stat
+2025-09-12 19:31:10,653 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:31:10,678 INFO werkzeug  * Restarting with stat
+2025-09-12 19:31:10,693 INFO werkzeug  * Restarting with stat
+2025-09-12 19:31:10,829 INFO werkzeug  * Restarting with stat
+2025-09-12 19:31:11,003 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:31:11,107 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:31:11,243 INFO werkzeug  * Restarting with stat
+2025-09-12 19:31:11,252 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:31:11,402 INFO werkzeug  * Restarting with stat
+2025-09-12 19:31:11,503 INFO werkzeug  * Restarting with stat
+2025-09-12 19:31:12,135 INFO __main__ API blueprint registered successfully
+2025-09-12 19:31:12,140 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:31:12,244 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:31:12,263 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:31:12,468 INFO __main__ API blueprint registered successfully
+2025-09-12 19:31:12,475 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:31:12,581 INFO __main__ API blueprint registered successfully
+2025-09-12 19:31:12,591 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:31:12,611 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:31:12,638 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:31:12,702 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:31:12,725 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:31:12,842 INFO __main__ API blueprint registered successfully
+2025-09-12 19:31:12,868 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:31:12,997 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:31:13,020 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:31:13,174 INFO __main__ API blueprint registered successfully
+2025-09-12 19:31:13,179 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:31:13,242 INFO __main__ API blueprint registered successfully
+2025-09-12 19:31:13,249 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:31:13,276 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:31:13,296 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:31:13,334 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:31:13,351 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:31:13,376 INFO __main__ API blueprint registered successfully
+2025-09-12 19:31:13,382 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:31:13,460 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:31:13,478 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:33:00,139 INFO __main__ API blueprint registered successfully
+2025-09-12 19:33:00,143 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:33:00,237 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 19:33:00,237 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 19:33:00,241 INFO werkzeug  * Restarting with stat
+2025-09-12 19:33:01,114 INFO __main__ API blueprint registered successfully
+2025-09-12 19:33:01,118 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:33:01,177 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:33:01,188 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:33:23,949 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:23] "GET / HTTP/1.1" 200 -
+2025-09-12 19:33:24,269 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:24] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:33:24,279 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:33:39,210 INFO __main__ Submit report - Session data: {'user': 'rniveda05@gmail.com'}
+2025-09-12 19:33:39,210 INFO __main__ Submit report - User ID: None
+2025-09-12 19:33:39,212 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:39] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:33:39,248 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:39] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:33:39,262 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:39] "GET / HTTP/1.1" 200 -
+2025-09-12 19:33:39,302 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:33:39,305 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:39] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:33:45,070 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:45] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:33:45,100 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:45] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:33:45,115 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:45] "GET / HTTP/1.1" 200 -
+2025-09-12 19:33:45,157 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:33:45,159 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:45] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:33:56,602 INFO __main__ Submit report - Session data: {'user': 'rniveda05@gmail.com'}
+2025-09-12 19:33:56,604 INFO __main__ Submit report - User ID: None
+2025-09-12 19:33:56,606 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:56] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:33:56,635 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:56] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:33:56,648 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:56] "GET / HTTP/1.1" 200 -
+2025-09-12 19:33:56,689 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:33:56,691 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:33:56] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:34:01,965 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:34:01] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:34:01,995 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:34:01] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:34:02,012 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:34:02] "GET / HTTP/1.1" 200 -
+2025-09-12 19:34:02,053 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:34:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:34:02,055 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:34:02] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:34:09,318 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:34:09] "GET /analytics HTTP/1.1" 200 -
+2025-09-12 19:34:09,343 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:34:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:36:01,621 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:01,786 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:01,832 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:01,865 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:01,910 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:02,035 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:02,049 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:02,133 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:02,255 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:02,260 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:02,311 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:02,441 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:02,604 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:02,635 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:02,683 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:02,775 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:03,743 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:03,755 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:03,760 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:03,775 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:03,870 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:03,882 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:03,891 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:03,911 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:04,049 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:04,056 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:04,156 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:04,176 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:04,189 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:04,199 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:04,289 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:04,315 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:04,364 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:04,370 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:04,452 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:04,462 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:04,468 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:04,470 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:04,520 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:04,527 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:04,544 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:04,548 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:04,552 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:04,569 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:04,621 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:04,635 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:04,640 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:04,654 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:26,722 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:26,881 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:26,883 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:26,884 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:27,057 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:27,095 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:27,264 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:27,451 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:27,519 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:27,530 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:27,647 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:27,706 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:36:27,738 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:27,928 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:27,985 INFO werkzeug  * Restarting with stat
+2025-09-12 19:36:28,909 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:28,915 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:28,920 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:28,930 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:29,013 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:29,030 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:29,032 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:29,054 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:29,194 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:29,202 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:29,216 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:29,224 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:29,292 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:29,312 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:29,312 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:29,331 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:29,483 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:29,525 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:29,542 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:29,557 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:29,669 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:29,681 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:29,689 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:29,701 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:29,743 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:29,749 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:29,825 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:29,846 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:36:29,868 INFO __main__ API blueprint registered successfully
+2025-09-12 19:36:29,871 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:36:29,935 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:36:29,948 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:38:47,088 INFO __main__ API blueprint registered successfully
+2025-09-12 19:38:47,092 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:38:47,191 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.236:5000
+2025-09-12 19:38:47,191 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 19:38:47,195 INFO werkzeug  * Restarting with stat
+2025-09-12 19:38:48,237 INFO __main__ API blueprint registered successfully
+2025-09-12 19:38:48,241 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:38:48,304 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:38:48,317 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:39:06,147 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:06] "GET / HTTP/1.1" 200 -
+2025-09-12 19:39:06,447 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:06] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:39:06,454 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:39:35,866 INFO __main__ Submit report - Session data: {'user': 'rniveda05@gmail.com'}
+2025-09-12 19:39:35,868 INFO __main__ Submit report - User ID: None
+2025-09-12 19:39:35,870 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:35] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:39:35,897 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:35] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:39:35,912 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:35] "GET / HTTP/1.1" 200 -
+2025-09-12 19:39:35,943 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:39:35,945 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:35] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:39:40,352 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:40] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:39:40,384 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:40] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:39:40,398 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:40] "GET / HTTP/1.1" 200 -
+2025-09-12 19:39:40,438 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:39:40,439 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:40] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:39:50,385 INFO __main__ Submit report - Session data: {'user': 'rniveda05@gmail.com'}
+2025-09-12 19:39:50,386 INFO __main__ Submit report - User ID: None
+2025-09-12 19:39:50,388 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:50] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 19:39:50,416 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:39:50,432 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:50] "GET / HTTP/1.1" 200 -
+2025-09-12 19:39:50,469 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:39:50,471 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:50] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:39:54,829 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:54] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:39:54,865 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:54] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:39:54,882 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:54] "GET / HTTP/1.1" 200 -
+2025-09-12 19:39:54,925 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:39:54,926 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:54] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:39:57,700 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:57] "GET /analytics HTTP/1.1" 200 -
+2025-09-12 19:39:57,728 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:39:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:40:31,278 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:31] "GET /crack HTTP/1.1" 200 -
+2025-09-12 19:40:31,310 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:40:31,311 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:31] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:40:38,343 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:38] "GET / HTTP/1.1" 200 -
+2025-09-12 19:40:38,385 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:40:38,387 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:38] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:40:44,308 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:44] "[32mGET /reports HTTP/1.1[0m" 302 -
+2025-09-12 19:40:44,349 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:44] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-09-12 19:40:44,366 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:44] "GET / HTTP/1.1" 200 -
+2025-09-12 19:40:44,410 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 19:40:44,415 INFO werkzeug 192.168.185.236 - - [12/Sep/2025 19:40:44] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 19:42:24,858 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:42:24,865 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:42:24,881 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:42:24,883 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:42:25,094 INFO werkzeug  * Restarting with stat
+2025-09-12 19:42:25,101 INFO werkzeug  * Restarting with stat
+2025-09-12 19:42:25,174 INFO werkzeug  * Restarting with stat
+2025-09-12 19:42:25,175 INFO werkzeug  * Restarting with stat
+2025-09-12 19:42:25,257 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:42:25,293 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:42:25,360 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:42:25,490 INFO werkzeug  * Restarting with stat
+2025-09-12 19:42:25,548 INFO werkzeug  * Restarting with stat
+2025-09-12 19:42:25,663 INFO werkzeug  * Restarting with stat
+2025-09-12 19:42:25,689 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:42:25,881 INFO werkzeug  * Detected change in 'c:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 19:42:25,959 INFO werkzeug  * Restarting with stat
+2025-09-12 19:42:26,291 INFO werkzeug  * Restarting with stat
+2025-09-12 19:42:26,795 INFO __main__ API blueprint registered successfully
+2025-09-12 19:42:26,800 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:42:26,815 INFO __main__ API blueprint registered successfully
+2025-09-12 19:42:26,834 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:42:26,902 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:42:26,921 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:42:26,929 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:42:26,949 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:42:27,600 INFO __main__ API blueprint registered successfully
+2025-09-12 19:42:27,608 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:42:27,742 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:42:27,753 INFO __main__ API blueprint registered successfully
+2025-09-12 19:42:27,764 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:42:27,767 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:42:27,877 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:42:27,898 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:42:28,056 INFO __main__ API blueprint registered successfully
+2025-09-12 19:42:28,060 INFO __main__ API blueprint registered successfully
+2025-09-12 19:42:28,063 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:42:28,068 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:42:28,108 INFO __main__ API blueprint registered successfully
+2025-09-12 19:42:28,115 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:42:28,143 INFO __main__ API blueprint registered successfully
+2025-09-12 19:42:28,150 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:42:28,192 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:42:28,196 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:42:28,215 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:42:28,219 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:42:28,232 INFO __main__ API blueprint registered successfully
+2025-09-12 19:42:28,236 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:42:28,245 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 19:42:28,261 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:42:28,265 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:42:28,290 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 19:42:28,348 WARNING werkzeug  * Debugger is active!
+2025-09-12 19:42:28,367 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 20:02:01,949 INFO __main__ API blueprint registered successfully
+2025-09-12 20:02:01,954 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 20:02:02,059 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 20:02:02,060 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 20:02:02,066 INFO werkzeug  * Restarting with stat
+2025-09-12 20:02:02,985 INFO __main__ API blueprint registered successfully
+2025-09-12 20:02:02,990 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 20:02:03,053 WARNING werkzeug  * Debugger is active!
+2025-09-12 20:02:03,066 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 20:02:07,613 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:07] "GET / HTTP/1.1" 200 -
+2025-09-12 20:02:08,055 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:08] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-12 20:02:08,082 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:08] "GET /static/app.js HTTP/1.1" 200 -
+2025-09-12 20:02:12,057 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 20:02:22,889 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:22] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-12 20:02:22,914 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:22] "GET / HTTP/1.1" 200 -
+2025-09-12 20:02:22,948 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:02:22,950 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:22] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 20:02:26,671 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:26] "GET /reports HTTP/1.1" 200 -
+2025-09-12 20:02:26,701 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:02:26,704 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:26] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 20:02:33,354 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:33] "GET /analytics HTTP/1.1" 200 -
+2025-09-12 20:02:33,381 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:02:45,769 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:45] "GET /healing HTTP/1.1" 200 -
+2025-09-12 20:02:45,797 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:02:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:06:04,911 INFO __main__ API blueprint registered successfully
+2025-09-12 20:06:04,916 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 20:06:05,052 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 20:06:05,052 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 20:06:05,057 INFO werkzeug  * Restarting with stat
+2025-09-12 20:06:06,108 INFO __main__ API blueprint registered successfully
+2025-09-12 20:06:06,113 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 20:06:06,180 WARNING werkzeug  * Debugger is active!
+2025-09-12 20:06:06,193 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 20:06:11,970 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:11] "GET / HTTP/1.1" 200 -
+2025-09-12 20:06:12,180 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:06:12,181 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:12] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 20:06:18,961 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:18] "GET /healing HTTP/1.1" 200 -
+2025-09-12 20:06:18,990 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:06:45,253 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:45] "GET / HTTP/1.1" 200 -
+2025-09-12 20:06:45,292 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:06:45,293 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:45] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 20:06:55,221 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:55] "GET / HTTP/1.1" 200 -
+2025-09-12 20:06:55,276 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:06:55,276 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:06:55] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 20:07:18,064 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:07:18] "GET /healing HTTP/1.1" 200 -
+2025-09-12 20:07:18,110 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:07:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:07:23,662 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:07:23] "GET /crack HTTP/1.1" 200 -
+2025-09-12 20:07:23,694 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:07:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 20:07:23,696 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:07:23] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 20:07:33,720 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:07:33] "GET /analytics HTTP/1.1" 200 -
+2025-09-12 20:07:33,765 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 20:07:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:27:49,209 INFO __main__ API blueprint registered successfully
+2025-09-12 21:27:49,216 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:27:49,460 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 21:27:49,463 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 21:27:49,480 INFO werkzeug  * Restarting with stat
+2025-09-12 21:27:51,576 INFO __main__ API blueprint registered successfully
+2025-09-12 21:27:51,582 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:27:51,709 WARNING werkzeug  * Debugger is active!
+2025-09-12 21:27:51,742 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 21:27:56,924 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:27:56] "GET / HTTP/1.1" 200 -
+2025-09-12 21:27:57,129 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:27:57] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:27:57,132 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:27:57] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-12 21:28:10,865 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:28:10] "GET /healing HTTP/1.1" 200 -
+2025-09-12 21:28:10,890 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:28:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:28:50,509 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:28:50] "GET /crack HTTP/1.1" 200 -
+2025-09-12 21:28:50,557 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:28:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:28:50,559 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:28:50] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:28:56,683 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:28:56] "GET /analytics HTTP/1.1" 200 -
+2025-09-12 21:28:56,727 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:28:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:29:45,311 INFO __main__ API blueprint registered successfully
+2025-09-12 21:29:45,317 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:29:45,413 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 21:29:45,414 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 21:29:45,476 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 21:29:46,783 INFO __main__ API blueprint registered successfully
+2025-09-12 21:29:46,789 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:29:46,834 WARNING werkzeug  * Debugger is active!
+2025-09-12 21:29:46,857 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 21:30:14,220 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:14] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:14,311 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:14] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-12 21:30:14,321 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:14] "GET /static/app.js HTTP/1.1" 200 -
+2025-09-12 21:30:15,544 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:15] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:15,598 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:15] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:15,599 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:16,363 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 21:30:17,435 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:17] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:17,490 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:17,492 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:17] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:18,103 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:18] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:18,157 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:18] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:18,160 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:19,888 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:19] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:21,453 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:21,453 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:21] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:21,566 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:21] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:21,635 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:21,640 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:21] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:25,765 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:25] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:25,840 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:25,856 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:25] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:26,170 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:26] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:26,281 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:26,282 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:26] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:33,817 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:33] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:33,928 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:33,931 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:33] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:53,793 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:53] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:53,883 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:53] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:53,884 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:55,226 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:55] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:55,317 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:55,328 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:55] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:30:56,168 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:56] "GET / HTTP/1.1" 200 -
+2025-09-12 21:30:56,296 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:30:56,298 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:30:56] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:31:09,151 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:31:09] "GET / HTTP/1.1" 200 -
+2025-09-12 21:31:09,294 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:31:09] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-12 21:31:09,296 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:31:09] "GET /static/app.js HTTP/1.1" 200 -
+2025-09-12 21:31:10,677 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:31:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-12 21:31:17,487 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:31:17] "GET /healing HTTP/1.1" 200 -
+2025-09-12 21:31:17,552 INFO werkzeug 127.0.0.1 - - [12/Sep/2025 21:31:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:31:42,808 INFO __main__ API blueprint registered successfully
+2025-09-12 21:31:42,812 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:31:42,945 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 21:31:42,945 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 21:31:42,951 INFO werkzeug  * Restarting with stat
+2025-09-12 21:31:44,194 INFO __main__ API blueprint registered successfully
+2025-09-12 21:31:44,202 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:31:44,302 WARNING werkzeug  * Debugger is active!
+2025-09-12 21:31:44,325 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 21:31:51,778 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:31:51] "GET / HTTP/1.1" 200 -
+2025-09-12 21:31:52,048 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:31:52] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:31:52,049 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:31:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:32:00,541 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:32:00] "GET /healing HTTP/1.1" 200 -
+2025-09-12 21:32:00,566 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:32:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:38:21,589 INFO __main__ API blueprint registered successfully
+2025-09-12 21:38:21,592 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:38:21,746 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 21:38:21,747 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 21:38:21,754 INFO werkzeug  * Restarting with stat
+2025-09-12 21:38:22,811 INFO __main__ API blueprint registered successfully
+2025-09-12 21:38:22,815 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:38:22,885 WARNING werkzeug  * Debugger is active!
+2025-09-12 21:38:22,897 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 21:38:38,578 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:38:38] "GET / HTTP/1.1" 200 -
+2025-09-12 21:38:38,744 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:38:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:38:38,809 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:38:38] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:38:49,575 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:38:49] "GET /healing HTTP/1.1" 200 -
+2025-09-12 21:38:49,606 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:38:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:47:37,175 INFO __main__ API blueprint registered successfully
+2025-09-12 21:47:37,177 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:47:37,274 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 21:47:37,275 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 21:47:37,278 INFO werkzeug  * Restarting with stat
+2025-09-12 21:47:38,002 INFO __main__ API blueprint registered successfully
+2025-09-12 21:47:38,006 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:47:38,068 WARNING werkzeug  * Debugger is active!
+2025-09-12 21:47:38,076 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 21:47:44,132 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:47:44] "GET / HTTP/1.1" 200 -
+2025-09-12 21:47:44,555 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:47:44] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:47:44,564 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:47:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:47:56,283 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:47:56] "GET /healing HTTP/1.1" 200 -
+2025-09-12 21:47:56,308 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:47:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:50:02,892 INFO __main__ API blueprint registered successfully
+2025-09-12 21:50:02,895 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:50:02,990 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 21:50:02,990 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 21:50:02,996 INFO werkzeug  * Restarting with stat
+2025-09-12 21:50:03,793 INFO __main__ API blueprint registered successfully
+2025-09-12 21:50:03,796 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 21:50:03,851 WARNING werkzeug  * Debugger is active!
+2025-09-12 21:50:03,863 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 21:50:15,035 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:50:15] "GET / HTTP/1.1" 200 -
+2025-09-12 21:50:15,283 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:50:15] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 21:50:15,298 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:50:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 21:51:02,653 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:51:02] "GET /healing HTTP/1.1" 200 -
+2025-09-12 21:51:02,683 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 21:51:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:03:37,138 INFO __main__ API blueprint registered successfully
+2025-09-12 22:03:37,146 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:03:37,281 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 22:03:37,281 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 22:03:37,286 INFO werkzeug  * Restarting with stat
+2025-09-12 22:03:38,288 INFO __main__ API blueprint registered successfully
+2025-09-12 22:03:38,291 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:03:38,366 WARNING werkzeug  * Debugger is active!
+2025-09-12 22:03:38,376 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 22:03:44,643 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:03:44] "GET / HTTP/1.1" 200 -
+2025-09-12 22:03:44,887 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:03:44] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:03:44,894 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:03:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:03:54,820 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:03:54] "GET /healing HTTP/1.1" 200 -
+2025-09-12 22:03:54,850 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:03:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:07:15,682 INFO __main__ API blueprint registered successfully
+2025-09-12 22:07:15,685 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:07:15,797 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 22:07:15,797 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 22:07:15,801 INFO werkzeug  * Restarting with stat
+2025-09-12 22:07:16,577 INFO __main__ API blueprint registered successfully
+2025-09-12 22:07:16,580 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:07:16,642 WARNING werkzeug  * Debugger is active!
+2025-09-12 22:07:16,651 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 22:07:23,706 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:07:23] "GET / HTTP/1.1" 200 -
+2025-09-12 22:07:24,103 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:07:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:07:24,111 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:07:24] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:07:43,625 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:07:43] "GET /healing HTTP/1.1" 200 -
+2025-09-12 22:07:43,662 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:07:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:08:10,402 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:08:10] "GET /crack HTTP/1.1" 200 -
+2025-09-12 22:08:10,435 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:08:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:08:10,446 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:08:10] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:12:21,735 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:12:21] "GET /analytics HTTP/1.1" 200 -
+2025-09-12 22:12:21,772 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:12:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:24:41,465 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:24:41] "GET /crack HTTP/1.1" 200 -
+2025-09-12 22:24:41,504 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:24:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:24:41,574 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:24:41] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:25:23,013 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:25:23] "GET /analytics HTTP/1.1" 200 -
+2025-09-12 22:25:23,044 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:25:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:25:30,906 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:25:30] "GET /healing HTTP/1.1" 200 -
+2025-09-12 22:25:30,927 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:25:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:26:13,302 INFO werkzeug  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-12 22:26:15,040 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-12 22:26:16,945 INFO __main__ API blueprint registered successfully
+2025-09-12 22:26:16,951 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:26:16,998 WARNING werkzeug  * Debugger is active!
+2025-09-12 22:26:17,014 INFO werkzeug  * Debugger PIN: 321-494-786
+2025-09-12 22:28:02,811 INFO __main__ API blueprint registered successfully
+2025-09-12 22:28:02,816 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:28:02,932 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 22:28:02,932 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 22:28:02,937 INFO werkzeug  * Restarting with stat
+2025-09-12 22:28:03,774 INFO __main__ API blueprint registered successfully
+2025-09-12 22:28:03,777 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:28:03,848 WARNING werkzeug  * Debugger is active!
+2025-09-12 22:28:03,861 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 22:28:23,150 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:28:23] "GET / HTTP/1.1" 200 -
+2025-09-12 22:28:23,538 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:28:23] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:28:23,546 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:28:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:28:43,314 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:28:43] "GET /healing HTTP/1.1" 200 -
+2025-09-12 22:28:43,339 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:28:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:31:40,472 INFO __main__ API blueprint registered successfully
+2025-09-12 22:31:40,475 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:31:40,579 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 22:31:40,580 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 22:31:40,584 INFO werkzeug  * Restarting with stat
+2025-09-12 22:31:41,495 INFO __main__ API blueprint registered successfully
+2025-09-12 22:31:41,500 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:31:41,573 WARNING werkzeug  * Debugger is active!
+2025-09-12 22:31:41,583 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 22:31:53,059 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:31:53] "GET / HTTP/1.1" 200 -
+2025-09-12 22:31:53,179 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:31:53] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:31:53,280 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:31:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:32:26,868 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:32:26] "GET /healing HTTP/1.1" 200 -
+2025-09-12 22:32:26,891 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:32:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:32:37,140 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:32:37] "GET /crack HTTP/1.1" 200 -
+2025-09-12 22:32:37,182 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:32:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:32:37,185 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:32:37] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:37:00,520 INFO __main__ API blueprint registered successfully
+2025-09-12 22:37:00,524 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:37:00,633 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 22:37:00,633 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 22:37:00,636 INFO werkzeug  * Restarting with stat
+2025-09-12 22:37:01,419 INFO __main__ API blueprint registered successfully
+2025-09-12 22:37:01,424 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:37:01,484 WARNING werkzeug  * Debugger is active!
+2025-09-12 22:37:01,497 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 22:37:34,242 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:37:34] "GET / HTTP/1.1" 200 -
+2025-09-12 22:37:34,423 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:37:34] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:37:34,466 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:37:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:37:54,892 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:37:54] "GET /healing HTTP/1.1" 200 -
+2025-09-12 22:37:54,919 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:37:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:38:07,921 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:38:07] "GET /crack HTTP/1.1" 200 -
+2025-09-12 22:38:07,947 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:38:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:38:07,949 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:38:07] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:41:25,020 INFO __main__ API blueprint registered successfully
+2025-09-12 22:41:25,023 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:41:25,122 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 22:41:25,122 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 22:41:25,125 INFO werkzeug  * Restarting with stat
+2025-09-12 22:41:26,057 INFO __main__ API blueprint registered successfully
+2025-09-12 22:41:26,060 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:41:26,110 WARNING werkzeug  * Debugger is active!
+2025-09-12 22:41:26,125 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 22:41:34,405 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:41:34] "GET / HTTP/1.1" 200 -
+2025-09-12 22:41:34,618 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:41:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:41:34,638 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:41:34] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:42:00,890 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:42:00] "GET /healing HTTP/1.1" 200 -
+2025-09-12 22:42:00,911 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:42:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:42:28,448 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:42:28] "GET /crack HTTP/1.1" 200 -
+2025-09-12 22:42:28,487 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:42:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:42:28,501 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:42:28] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:42:39,094 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:42:39] "GET /analytics HTTP/1.1" 200 -
+2025-09-12 22:42:39,123 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:42:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:58:45,596 INFO __main__ API blueprint registered successfully
+2025-09-12 22:58:45,600 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:58:45,724 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.21.197.236:5000
+2025-09-12 22:58:45,725 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-12 22:58:45,732 INFO werkzeug  * Restarting with stat
+2025-09-12 22:58:46,690 INFO __main__ API blueprint registered successfully
+2025-09-12 22:58:46,693 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-12 22:58:46,756 WARNING werkzeug  * Debugger is active!
+2025-09-12 22:58:46,781 INFO werkzeug  * Debugger PIN: 105-385-184
+2025-09-12 22:58:52,206 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:58:52] "GET / HTTP/1.1" 200 -
+2025-09-12 22:58:52,528 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:58:52] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-12 22:58:52,535 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:58:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:59:00,687 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:59:00] "GET /healing HTTP/1.1" 200 -
+2025-09-12 22:59:00,706 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:59:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:59:08,770 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:59:08] "GET /crack HTTP/1.1" 200 -
+2025-09-12 22:59:08,831 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:59:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-12 22:59:08,838 INFO werkzeug 10.21.197.236 - - [12/Sep/2025 22:59:08] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 01:08:37,197 INFO __main__ API blueprint registered successfully
+2025-09-13 01:08:37,200 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 01:08:37,287 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.3:5000
+2025-09-13 01:08:37,287 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-13 01:08:37,295 INFO werkzeug  * Restarting with stat
+2025-09-13 01:08:40,212 INFO __main__ API blueprint registered successfully
+2025-09-13 01:08:40,216 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 01:08:40,232 WARNING werkzeug  * Debugger is active!
+2025-09-13 01:08:40,246 INFO werkzeug  * Debugger PIN: 103-727-068
+2025-09-13 01:08:47,379 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:08:47] "GET / HTTP/1.1" 200 -
+2025-09-13 01:08:47,765 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:08:47] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-13 01:08:47,773 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:08:47] "GET /static/app.js HTTP/1.1" 200 -
+2025-09-13 01:08:48,323 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:08:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-13 01:08:54,732 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:08:54] "GET /healing HTTP/1.1" 200 -
+2025-09-13 01:08:54,757 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:08:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:08:59,576 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:08:59] "GET /crack HTTP/1.1" 200 -
+2025-09-13 01:08:59,594 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:08:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:09:14,442 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:09:14] "GET /healing HTTP/1.1" 200 -
+2025-09-13 01:09:14,500 INFO werkzeug 172.20.10.3 - - [13/Sep/2025 01:09:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:09:36,085 INFO werkzeug  * Detected change in 'C:\\Users\\mordh\\Downloads\\FIRST APP - Copy (2)\\FIRST APP - Copy (2)\\app.py', reloading
+2025-09-13 01:09:36,639 INFO werkzeug  * Restarting with stat
+2025-09-13 01:18:32,861 INFO __main__ API blueprint registered successfully
+2025-09-13 01:18:32,863 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 01:18:33,043 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.3:5000
+2025-09-13 01:18:33,043 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-13 01:18:33,114 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-13 01:18:33,521 INFO __main__ API blueprint registered successfully
+2025-09-13 01:18:33,524 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 01:18:33,566 WARNING werkzeug  * Debugger is active!
+2025-09-13 01:18:33,571 INFO werkzeug  * Debugger PIN: 490-025-065
+2025-09-13 01:18:47,062 INFO werkzeug  * Detected change in 'C:\\Python313\\Lib\\encodings\\unicode_escape.py', reloading
+2025-09-13 01:18:47,069 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:18:47] "GET /healing?id=bdcb8e61-7850-47ec-820d-77455f2d5f41&vscodeBrowserReqId=1757706527039 HTTP/1.1" 200 -
+2025-09-13 01:18:47,200 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:18:47] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-13 01:18:47,855 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-13 01:18:48,438 INFO __main__ API blueprint registered successfully
+2025-09-13 01:18:48,440 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 01:18:48,496 WARNING werkzeug  * Debugger is active!
+2025-09-13 01:18:48,503 INFO werkzeug  * Debugger PIN: 490-025-065
+2025-09-13 01:20:43,524 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:20:43] "GET / HTTP/1.1" 200 -
+2025-09-13 01:20:43,781 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:20:43] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-13 01:20:43,818 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:20:43] "GET /static/app.js HTTP/1.1" 200 -
+2025-09-13 01:20:44,708 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:20:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-13 01:20:54,974 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:20:54] "GET /healing HTTP/1.1" 200 -
+2025-09-13 01:20:55,021 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:20:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:21:06,127 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:06] "GET /crack HTTP/1.1" 200 -
+2025-09-13 01:21:06,175 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:21:11,420 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:11] "GET /analytics HTTP/1.1" 200 -
+2025-09-13 01:21:11,463 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:21:29,472 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:29] "GET /login HTTP/1.1" 200 -
+2025-09-13 01:21:29,525 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:21:29,529 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:29] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 01:21:46,404 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:46] "POST /login HTTP/1.1" 200 -
+2025-09-13 01:21:46,431 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:21:46,439 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:46] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 01:21:50,844 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:50] "GET /signup HTTP/1.1" 200 -
+2025-09-13 01:21:50,875 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:21:50,875 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:21:50] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 01:22:50,542 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:22:50] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-09-13 01:22:50,552 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:22:50] "GET /login HTTP/1.1" 200 -
+2025-09-13 01:22:50,607 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:22:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:22:50,622 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:22:50] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 01:22:54,316 INFO __main__ Login successful - User ID: 5, Email: mordheeshvara@gmail.com
+2025-09-13 01:22:54,320 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:22:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-13 01:22:54,329 INFO __main__ Home page: Retrieved 0 reports for user 5
+2025-09-13 01:22:54,334 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:22:54] "GET / HTTP/1.1" 200 -
+2025-09-13 01:22:54,389 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:22:54] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 01:22:54,392 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:22:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:23:06,663 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:23:06] "[32mPOST /submit_report HTTP/1.1[0m" 302 -
+2025-09-13 01:23:06,674 INFO __main__ Home page: Retrieved 1 reports for user 5
+2025-09-13 01:23:06,676 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:23:06] "GET / HTTP/1.1" 200 -
+2025-09-13 01:23:06,719 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:23:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:23:06,722 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:23:06] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 01:23:09,871 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:23:09] "GET /reports HTTP/1.1" 200 -
+2025-09-13 01:23:09,910 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:23:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 01:23:09,921 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:23:09] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 01:23:14,214 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:23:14] "GET /healing HTTP/1.1" 200 -
+2025-09-13 01:23:14,262 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 01:23:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 07:40:40,234 INFO __main__ API blueprint registered successfully
+2025-09-13 07:40:40,239 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 07:40:40,302 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.204.98.47:5000
+2025-09-13 07:40:40,303 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-13 07:40:40,307 INFO werkzeug  * Restarting with stat
+2025-09-13 07:40:43,715 INFO __main__ API blueprint registered successfully
+2025-09-13 07:40:43,722 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 07:40:43,758 WARNING werkzeug  * Debugger is active!
+2025-09-13 07:40:43,793 INFO werkzeug  * Debugger PIN: 135-881-972
+2025-09-13 07:40:52,336 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:40:52] "GET / HTTP/1.1" 200 -
+2025-09-13 07:40:53,124 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:40:53] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-13 07:40:53,144 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:40:53] "GET /static/app.js HTTP/1.1" 200 -
+2025-09-13 07:40:53,965 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:40:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-13 07:40:58,091 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:40:58] "GET /healing HTTP/1.1" 200 -
+2025-09-13 07:40:58,124 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:40:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 07:41:01,638 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:41:01] "GET /crack HTTP/1.1" 200 -
+2025-09-13 07:41:01,668 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:41:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 07:41:05,193 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:41:05] "GET /analytics HTTP/1.1" 200 -
+2025-09-13 07:41:05,223 INFO werkzeug 10.204.98.47 - - [13/Sep/2025 07:41:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 09:04:21,600 INFO __main__ API blueprint registered successfully
+2025-09-13 09:04:21,603 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 09:04:21,765 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2025-09-13 09:04:21,766 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-09-13 09:04:21,812 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-13 09:04:22,581 INFO __main__ API blueprint registered successfully
+2025-09-13 09:04:22,584 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 09:04:22,670 WARNING werkzeug  * Debugger is active!
+2025-09-13 09:04:22,679 INFO werkzeug  * Debugger PIN: 490-025-065
+2025-09-13 09:05:14,725 INFO werkzeug  * Detected change in 'C:\\Python313\\Lib\\encodings\\unicode_escape.py', reloading
+2025-09-13 09:05:14,761 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:05:14] "GET / HTTP/1.1" 200 -
+2025-09-13 09:05:15,484 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2025-09-13 09:05:16,652 INFO __main__ API blueprint registered successfully
+2025-09-13 09:05:16,655 INFO __main__ Starting FixZen application with enhanced backend...
+2025-09-13 09:05:16,734 WARNING werkzeug  * Debugger is active!
+2025-09-13 09:05:16,741 INFO werkzeug  * Debugger PIN: 490-025-065
+2025-09-13 09:05:16,938 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:05:16] "GET /static/app.js HTTP/1.1" 200 -
+2025-09-13 09:05:16,946 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:05:16] "GET /static/styles.css HTTP/1.1" 200 -
+2025-09-13 09:05:27,293 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:05:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-13 09:06:35,517 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:06:35] "GET / HTTP/1.1" 200 -
+2025-09-13 09:06:35,555 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:06:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 09:06:35,567 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:06:35] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 09:07:16,742 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:07:16] "GET / HTTP/1.1" 200 -
+2025-09-13 09:07:16,773 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:07:16] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 09:07:16,775 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:07:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 09:07:37,237 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:07:37] "GET / HTTP/1.1" 200 -
+2025-09-13 09:07:37,274 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:07:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-09-13 09:07:37,276 INFO werkzeug 127.0.0.1 - - [13/Sep/2025 09:07:37] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2025-09-13 09:12:09,451 INFO werkzeug 10.10.44.33 - - [13/Sep/2025 09:12:09] "GET / HTTP/1.1" 200 -
+2025-09-13 09:12:19,830 INFO werkzeug 10.10.44.33 - - [13/Sep/2025 09:12:19] "[31m[1mGET / HTTP/1.1[0m" 400 -
+2025-09-13 09:12:19,873 INFO werkzeug 10.10.44.33 - - [13/Sep/2025 09:12:19] "[33mGET /loginMsg.js HTTP/1.1[0m" 404 -
+2025-09-13 09:12:19,879 INFO werkzeug 10.10.44.33 - - [13/Sep/2025 09:12:19] "[33mGET /cgi/get.cgi?cmd=home_login HTTP/1.1[0m" 404 -
+2025-09-13 09:12:22,555 INFO werkzeug 10.10.44.33 - - [13/Sep/2025 09:12:22] "[33mPOST /boaform/formTracert HTTP/1.1[0m" 404 -

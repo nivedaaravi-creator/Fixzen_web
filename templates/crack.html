@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FixZen - AI Crack Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { 
+      margin: 0; 
+      background: var(--gradient-hero);
+      background-size: 400% 400%;
+      animation: gradientShift 15s ease infinite;
+      color: var(--ink);
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+    }
+    
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    .container { 
+      max-width: 1200px; 
+      margin: 30px auto; 
+      padding: 0 20px; 
+    }
+    
+    .hero-section {
+      text-align: center;
+      padding: 60px 0 40px;
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      margin-bottom: 40px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+    
+    .hero-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, rgba(0,51,102,0.8), transparent);
+    }
+    
+    .hero-title {
+      font-size: 48px;
+      background: var(--gradient-secondary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 800;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+    
+    .hero-subtitle {
+      font-size: 18px;
+      color: var(--muted);
+      margin-bottom: 32px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+    }
+    
+    .stat-item {
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 32px;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--brand), var(--brand-3));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .stat-label {
+      font-size: 14px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .detection-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    
+    @media (max-width: 768px) {
+      .detection-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    .card {
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: var(--shadow-lg);
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent);
+    }
+    
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-xl);
+    }
+    
+    .card-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--brand);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .file-upload-area {
+      border: 3px dashed var(--line);
+      border-radius: 16px;
+      padding: 40px 20px;
+      text-align: center;
+      background: rgba(248,250,252,0.5);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .file-upload-area:hover {
+      border-color: var(--brand);
+      background: rgba(30,64,175,0.05);
+    }
+    
+    .file-upload-area.dragover {
+      border-color: var(--brand-2);
+      background: rgba(5,150,105,0.1);
+      transform: scale(1.02);
+    }
+    
+    .upload-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+      opacity: 0.7;
+    }
+    
+    .upload-text {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    
+    .upload-subtext {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    
+    .preview-image {
+      max-width: 100%;
+      max-height: 300px;
+      border-radius: 12px;
+      box-shadow: var(--shadow-md);
+    }
+    
+    .analysis-result {
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+    
+    .result-positive {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+    }
+    
+    .result-negative {
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    
+    .confidence-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--line);
+      border-radius: 4px;
+      margin-top: 8px;
+      overflow: hidden;
+    }
+    
+    .confidence-fill {
+      height: 100%;
+      background: linear-gradient(135deg, var(--brand), var(--brand-3));
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+    
+    .theme-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 18px;
+    }
+    
+    .theme-toggle:hover {
+      background: rgba(255,255,255,0.2);
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="navbar">
+    <div class="container navbar-inner">
+      <div class="logo">FixZen</div>
+      <div class="nav-links">
+        <a href="{{ url_for('home') }}">🏠 Home</a>
+        <a href="{{ url_for('healing_page') }}">💧 Healing</a>
+        <a href="{{ url_for('analytics_page') }}">📊 Analytics</a>
+        <a href="{{ url_for('crack_page') }}" class="pill">🔍 Crack Detection</a>
+        
+        <!-- Theme Toggle -->
+        <div class="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">
+          <span id="theme-icon">🌙</span>
+        </div>
+        
+        {% if session.get('user') %}
+          <span class="pill">Welcome, {{ session['user'] }}</span>
+          <a class="pill" href="{{ url_for('logout') }}">Logout</a>
+        {% else %}
+          <a class="pill" href="{{ url_for('login') }}">Login</a>
+          <a class="pill" href="{{ url_for('signup_page') }}">Sign Up</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <div data-flash data-type="success" style="display:none">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div class="hero-title">🔍 AI Crack Detection</div>
+      <div class="hero-subtitle">
+        Advanced AI-powered crack detection with millimeter precision. Upload images and get instant analysis with confidence scores.
+      </div>
+      <div class="stats">
+        <div class="stat-item">
+          <div class="stat-value">99.8%</div>
+          <div class="stat-label">Accuracy</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">0.1mm</div>
+          <div class="stat-label">Min Detection</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">< 2s</div>
+          <div class="stat-label">Analysis Time</div>
+        </div>
+      </div>
+    </div>
+
+    <form method="POST" action="{{ url_for('crack_page') }}" enctype="multipart/form-data" id="crack-form">
+      <div class="detection-grid">
+        <!-- Upload Section -->
+        <div class="card">
+          <div class="card-title">
+            📤 Upload Image
+          </div>
+          
+          <div class="file-upload-area" id="dropZone" onclick="document.getElementById('imageFile').click()">
+            <div class="upload-icon">🖼️</div>
+            <div class="upload-text">Drop image here or click to browse</div>
+            <div class="upload-subtext">Supports JPG, PNG, WebP up to 10MB</div>
+            <input type="file" id="imageFile" name="image" accept="image/*" style="display: none;" onchange="previewImage(this)">
+          </div>
+          
+          <div id="imagePreview" style="margin-top: 20px; display: none;">
+            <img id="previewImg" class="preview-image" alt="Preview">
+            <div style="margin-top: 12px; text-align: center;">
+              <button type="submit" class="btn btn-primary" id="analyzeBtn">
+                🔍 Analyze Image
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Analysis Section -->
+        <div class="card">
+          <div class="card-title">
+            🧠 Analysis Results
+          </div>
+          
+          <div id="analysisResults">
+            <div style="text-align: center; color: var(--muted); padding: 40px 20px;">
+              <div style="font-size: 48px; opacity: 0.5; margin-bottom: 16px;">📊</div>
+              <p>Upload an image to start crack detection analysis</p>
+            </div>
+          </div>
+          
+          {% if result %}
+          <div class="analysis-result {{ 'result-positive' if result.has_crack else 'result-negative' }}">
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+              <span style="font-size: 24px;">{{ '⚠️' if result.has_crack else '✅' }}</span>
+              <span style="font-weight: 700; font-size: 18px;">
+                {{ 'Crack Detected' if result.has_crack else 'No Crack Detected' }}
+              </span>
+            </div>
+            
+            <div style="margin-bottom: 8px;">
+              <span style="font-weight: 600;">Confidence: {{ "%.1f"|format(result.confidence * 100) }}%</span>
+            </div>
+            <div class="confidence-bar">
+              <div class="confidence-fill" style="width: {{ result.confidence * 100 }}%"></div>
+            </div>
+            
+            {% if result.has_crack %}
+            <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(239, 68, 68, 0.2);">
+              <div style="font-size: 14px; color: var(--muted);">
+                <strong>Recommendation:</strong> Immediate inspection recommended. Consider structural assessment.
+              </div>
+            </div>
+            {% endif %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // Theme toggle functionality
+    function toggleTheme() {
+      const icon = document.getElementById('theme-icon');
+      if (icon.textContent === '🌙') {
+        icon.textContent = '☀️';
+      } else {
+        icon.textContent = '🌙';
+      }
+    }
+
+    // File upload and drag & drop functionality
+    const dropZone = document.getElementById('dropZone');
+    const imageFile = document.getElementById('imageFile');
+    const imagePreview = document.getElementById('imagePreview');
+    const previewImg = document.getElementById('previewImg');
+
+    // Drag and drop functionality
+    dropZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropZone.classList.add('dragover');
+    });
+
+    dropZone.addEventListener('dragleave', () => {
+      dropZone.classList.remove('dragover');
+    });
+
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('dragover');
+      const files = e.dataTransfer.files;
+      if (files.length > 0) {
+        imageFile.files = files;
+        previewImage(imageFile);
+      }
+    });
+
+    // Preview image function
+    function previewImage(input) {
+      if (input.files && input.files[0]) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          previewImg.src = e.target.result;
+          imagePreview.style.display = 'block';
+        };
+        reader.readAsDataURL(input.files[0]);
+      }
+    }
+
+    // Flash message display
+    document.addEventListener('DOMContentLoaded', () => {
+      const flashMessages = document.querySelectorAll('[data-flash]');
+      flashMessages.forEach(message => {
+        if (message.dataset.type === 'success') {
+          // Show success message with animation
+          message.style.display = 'block';
+          message.style.background = 'rgba(16, 185, 129, 0.1)';
+          message.style.border = '1px solid rgba(16, 185, 129, 0.2)';
+          message.style.padding = '12px 20px';
+          message.style.borderRadius = '12px';
+          message.style.marginBottom = '20px';
+          message.style.color = 'var(--success)';
+          message.style.fontWeight = '600';
+          
+          // Auto-hide after 5 seconds
+          setTimeout(() => {
+            message.style.opacity = '0';
+            message.style.transition = 'opacity 0.5s ease';
+            setTimeout(() => message.remove(), 500);
+          }, 5000);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

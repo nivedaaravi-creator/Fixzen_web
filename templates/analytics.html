@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Analytics - FixZen</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif;
+            background: var(--gradient-hero);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            min-height: 100vh;
+            margin: 0;
+            color: var(--ink);
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .container { 
+            max-width: 1200px; 
+            margin: 30px auto; 
+            padding: 0 20px; 
+        }
+        
+        .hero-section {
+            text-align: center;
+            padding: 60px 0 40px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(0,51,102,0.8), transparent);
+        }
+        
+        .hero-title {
+            font-size: 48px;
+            background: var(--gradient-secondary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--muted);
+            margin-bottom: 16px;
+        }
+        
+        .metric-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent);
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: var(--shadow-xl);
+        }
+        
+        .metric-icon {
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+        
+        .metric-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--muted);
+            margin-bottom: 8px;
+        }
+        
+        .metric-value {
+            font-size: 36px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--brand), var(--brand-3));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .analytics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+        .chart-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: var(--shadow-lg);
+            margin-bottom: 24px;
+            transition: all 0.4s ease;
+        }
+        .chart-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-xl);
+        }
+        .chart-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--brand);
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container navbar-inner">
+            <div class="logo">FixZen</div>
+            <div class="nav-links">
+                <a href="{{ url_for('home') }}">🏠 Home</a>
+                <a href="{{ url_for('healing_page') }}">💧 Healing</a>
+                <a href="{{ url_for('crack_page') }}">🔍 Crack Detection</a>
+                <a href="{{ url_for('analytics_page') }}" class="pill">📊 Analytics</a>
+                
+                {% if session.get('user') %}
+                  <span class="pill">Welcome, {{ session['user'] }}</span>
+                  <a class="pill" href="{{ url_for('logout') }}">Logout</a>
+                {% else %}
+                  <a class="pill" href="{{ url_for('login') }}">Login</a>
+                  <a class="pill" href="{{ url_for('signup_page') }}">Sign Up</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-title">📊 Advanced Analytics</div>
+            <p class="hero-subtitle">Comprehensive insights into your FixZen system performance</p>
+        </div>
+
+        <!-- Metrics Grid -->
+        <div class="analytics-grid">
+            <div class="metric-card">
+                <div class="metric-icon">👥</div>
+                <div class="metric-title">Total Users</div>
+                <div class="metric-value">{{ metrics.total_users if metrics else '0' }}</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-icon">💧</div>
+                <div class="metric-title">Total Healings</div>
+                <div class="metric-value">{{ metrics.total_healings if metrics else '0' }}</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-icon">🔍</div>
+                <div class="metric-title">Total Cracks</div>
+                <div class="metric-value">{{ metrics.total_cracks if metrics else '0' }}</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-icon">⚡</div>
+                <div class="metric-title">Avg Water (L)</div>
+                <div class="metric-value">{{ metrics.avg_water if metrics else '0.0' }}</div>
+            </div>
+        </div>
+
+        <!-- Chart Section -->
+        <div class="chart-card">
+            <div class="chart-title">
+                � Water Usage Trends
+            </div>
+            <div class="chart-container">
+                <canvas id="progressChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Chart initialization
+        const labels = {{ chart_labels|tojson|default('[]')|safe }};
+        const values = {{ chart_values|tojson|default('[]')|safe }};
+        
+        const ctx = document.getElementById('progressChart').getContext('2d');
+        const progressChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Water Usage (Liters)',
+                    data: values,
+                    borderColor: 'rgba(30, 64, 175, 1)',
+                    backgroundColor: 'rgba(30, 64, 175, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4,
+                    pointBackgroundColor: 'rgba(124, 58, 237, 1)',
+                    pointBorderColor: '#ffffff',
+                    pointBorderWidth: 2,
+                    pointRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            font: {
+                                family: 'Poppins',
+                                weight: '600'
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.1)'
+                        },
+                        ticks: {
+                            font: {
+                                family: 'Poppins'
+                            }
+                        }
+                    },
+                    x: {
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.1)'
+                        },
+                        ticks: {
+                            font: {
+                                family: 'Poppins'
+                            }
+                        }
+                    }
+                },
+                elements: {
+                    point: {
+                        hoverRadius: 8
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+

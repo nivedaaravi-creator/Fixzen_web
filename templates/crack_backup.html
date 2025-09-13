@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FixZen - AI Crack Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { 
+      margin: 0; 
+      background: var(--gradient-hero);
+      background-size: 400% 400%;
+      animation: gradientShift 15s ease infinite;
+      color: var(--ink);
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+    }
+    
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+    .hero-section {
+      text-align: center;
+      padding: 60px 0 40px;
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      margin-bottom: 40px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+    .hero-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, rgba(124,58,237,0.8), transparent);
+    }
+    .hero-title {
+      font-size: 48px;
+      background: linear-gradient(135deg, #1e40af, #7c3aed);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 800;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+    .hero-subtitle {
+      font-size: 18px;
+      color: var(--muted);
+      margin-bottom: 32px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .detection-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .upload-section, .analysis-section {
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: var(--shadow-lg);
+      transition: all 0.4s ease;
+    }
+    .upload-section:hover, .analysis-section:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-xl);
+    }
+    .file-upload-area {
+      border: 3px dashed var(--line);
+      border-radius: 16px;
+      padding: 40px 20px;
+      text-align: center;
+      background: rgba(248,250,252,0.5);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    .file-upload-area:hover {
+      border-color: var(--brand);
+      background: rgba(30,64,175,0.05);
+    }
+    .file-upload-area.dragover {
+      border-color: var(--brand-2);
+      background: rgba(5,150,105,0.05);
+      transform: scale(1.02);
+    }
+    .upload-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #1e40af, #7c3aed);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .analysis-section {
+      background: rgba(255,255,255,0.9);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      padding: 32px;
+      backdrop-filter: blur(15px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .gps-section {
+      background: rgba(255,255,255,0.9);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      padding: 32px;
+      margin-top: 30px;
+      backdrop-filter: blur(15px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .gps-btn {
+      background: var(--gradient-secondary);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .gps-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+    .dimension-inputs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .ai-analysis {
+      background: linear-gradient(135deg, rgba(16,185,129,0.1) 0%, rgba(6,182,212,0.1) 100%);
+      border: 1px solid rgba(16,185,129,0.2);
+      border-radius: 16px;
+      padding: 24px;
+      margin-top: 20px;
+      display: none;
+    }
+    .analysis-result {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .confidence-bar {
+      width: 100%;
+      height: 8px;
+      background: rgba(0,0,0,0.1);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .confidence-fill {
+      height: 100%;
+      background: var(--gradient-secondary);
+      border-radius: 4px;
+      transition: width 1s ease;
+      width: 0%;
+    }
+    @media (max-width: 768px) {
+      .detection-grid {
+        grid-template-columns: 1fr;
+      }
+      .dimension-inputs {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="container-wide navbar-inner">
+      <div class="logo">FixZen</div>
+      <div class="nav-links">
+        <a href="{{ url_for('home') }}">🏠 Home</a>
+        <a href="{{ url_for('healing_page') }}">💧 Healing</a>
+        <a href="{{ url_for('analytics_page') }}">📊 Analytics</a>
+        
+        <!-- Theme Toggle -->
+        <div class="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">
+          <span id="theme-icon">🌙</span>
+        </div>
+        
+        {% if session.get('user') %}
+          <span class="pill">Welcome, {{ session['user'] }}</span>
+          <a class="pill" href="{{ url_for('logout') }}">Logout</a>
+        {% else %}
+          <a class="pill" href="{{ url_for('login') }}">Login</a>
+          <a class="pill" href="{{ url_for('signup_page') }}">Sign Up</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="container motion-safe:animate-fadeIn">
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <div data-flash data-type="success" style="display:none">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div class="hero-title">🔍 AI Crack Detection</div>
+      <div class="hero-subtitle">
+        Advanced AI-powered crack detection with millimeter precision. Upload images and get instant analysis with confidence scores.
+      </div>
+      <div class="stats" style="display: flex; justify-content: center; gap: 40px; margin-top: 32px;">
+        <div class="stat-item" style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 800; color: var(--brand);">99.8%</div>
+          <div style="font-size: 14px; color: var(--muted); text-transform: uppercase;">Accuracy</div>
+        </div>
+        <div class="stat-item" style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 800; color: var(--brand);">0.1mm</div>
+          <div style="font-size: 14px; color: var(--muted); text-transform: uppercase;">Min Detection</div>
+        </div>
+        <div class="stat-item" style="text-align: center;">
+          <div style="font-size: 32px; font-weight: 800; color: var(--brand);">< 2s</div>
+          <div style="font-size: 14px; color: var(--muted); text-transform: uppercase;">Analysis Time</div>
+        </div>
+      </div>
+    </div>
+
+    <form method="POST" action="{{ url_for('crack_page') }}" enctype="multipart/form-data" id="crack-form">
+      <div class="detection-grid">
+        <!-- Upload Section -->
+        <div class="upload-section">
+          <h3 style="color: var(--brand); margin-bottom: 20px; font-size: 24px;">📸 Image Upload</h3>
+          
+          <div class="file-upload-area" id="upload-area">
+            <div class="upload-icon">📷</div>
+            <h4 style="margin: 0 0 8px; color: var(--brand);">Drop image here or click to browse</h4>
+            <p style="margin: 0; color: var(--muted); font-size: 14px;">Supports JPG, PNG, GIF up to 10MB</p>
+            <input type="file" id="crack-image" name="image" accept="image/*" style="display: none;">
+          </div>
+          
+          <div class="image-preview" id="image-preview"></div>
+          
+          <div style="margin-top: 20px;">
+            <label for="crack-id" style="color: var(--brand); font-weight: 600;">🏷️ Crack ID (Optional)</label>
+            <input type="text" id="crack-id" name="crack_id" placeholder="e.g., CRACK-2024-001" style="margin-top: 8px;">
+          </div>
+        </div>
+
+        <!-- Analysis Section -->
+        <div class="analysis-section">
+          <h3 style="color: var(--brand); margin-bottom: 20px; font-size: 24px;">🤖 AI Analysis</h3>
+          
+          <div class="ai-analysis" id="ai-analysis">
+            <div class="analysis-result">
+              <span style="font-size: 24px;">🎯</span>
+              <div>
+                <strong>Crack Detected!</strong>
+                <div style="font-size: 14px; color: var(--muted);">Confidence: <span id="confidence-text">95%</span></div>
+              </div>
+            </div>
+            <div class="confidence-bar">
+              <div class="confidence-fill" id="confidence-fill"></div>
+            </div>
+            <div style="margin-top: 16px; padding: 16px; background: rgba(255,255,255,0.5); border-radius: 12px;">
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; font-size: 14px;">
+                <div><strong>Severity:</strong> <span id="severity">Moderate</span></div>
+                <div><strong>Type:</strong> <span id="crack-type">Longitudinal</span></div>
+                <div><strong>Priority:</strong> <span id="priority">Medium</span></div>
+                <div><strong>Action:</strong> <span id="action">Monitor</span></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dimension-inputs">
+            <div>
+              <label style="color: var(--brand); font-weight: 600;">📏 Length (mm)</label>
+              <input type="number" name="length_mm" id="length_mm" placeholder="Auto-detected" step="0.01">
+            </div>
+            <div>
+              <label style="color: var(--brand); font-weight: 600;">📐 Width (mm)</label>
+              <input type="number" name="width_mm" id="width_mm" placeholder="Auto-detected" step="0.01">
+            </div>
+          </div>
+          
+          <div style="margin-top: 24px;">
+            <button type="button" class="btn btn-primary" id="analyze-btn" style="width: 100%; padding: 16px;">
+              🔍 Analyze Image
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- GPS Section -->
+      <div class="gps-section">
+        <h3 style="color: var(--brand); margin-bottom: 20px; font-size: 24px;">🌍 Location Data</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr auto; gap: 16px; align-items: end;">
+          <div>
+            <label style="color: var(--brand); font-weight: 600;">📍 Latitude</label>
+            <input type="text" id="latitude" name="latitude" placeholder="Auto-detect with GPS">
+          </div>
+          <div>
+            <label style="color: var(--brand); font-weight: 600;">📍 Longitude</label>
+            <input type="text" id="longitude" name="longitude" placeholder="Auto-detect with GPS">
+          </div>
+          <button type="button" class="gps-btn" id="gpsBtn">
+            🛰️ Get GPS
+          </button>
+        </div>
+        <div id="location-status" style="margin-top: 16px; padding: 12px; border-radius: 8px; display: none;"></div>
+      </div>
+
+      <!-- Submit Section -->
+      <div style="text-align: center; margin-top: 40px;">
+        <div style="display: flex; gap: 16px; justify-content: center;">
+          <button type="submit" class="btn btn-primary" style="padding: 16px 32px; font-size: 16px;" onclick="openModal('confirmSubmit'); return false;">
+            🚀 Submit Analysis
+          </button>
+          <a href="{{ url_for('home') }}" class="btn btn-secondary" style="padding: 16px 32px; font-size: 16px; text-decoration: none;">
+            🏠 Back to Home
+          </a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Confirm Modal -->
+  <div class="modal-backdrop" id="confirmSubmit">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-title">Confirm Analysis</div>
+        <button class="btn btn-secondary" onclick="closeModal('confirmSubmit')">Close</button>
+      </div>
+      <div class="modal-body">
+        Proceed to submit this crack report for analysis?
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('confirmSubmit')">Cancel</button>
+        <button class="btn btn-primary" id="confirmSubmitBtn">Yes, Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Enhanced GPS functionality
+    const gpsBtn = document.getElementById('gpsBtn');
+    const locationStatus = document.getElementById('location-status');
+    
+    gpsBtn?.addEventListener('click', () => {
+      if (!navigator.geolocation) {
+        showLocationStatus('❌ Geolocation is not supported on this device.', 'error');
+        return;
+      }
+      
+      gpsBtn.innerHTML = '<span class="loading"></span> Getting GPS...';
+      gpsBtn.disabled = true;
+      showLocationStatus('🛰️ Acquiring GPS coordinates...', 'info');
+      
+      navigator.geolocation.getCurrentPosition((pos) => {
+        const { latitude, longitude, accuracy } = pos.coords;
+        document.getElementById('latitude').value = latitude.toFixed(6);
+        document.getElementById('longitude').value = longitude.toFixed(6);
+        
+        gpsBtn.innerHTML = '✅ GPS Acquired';
+        showLocationStatus(`📍 Location acquired with ${accuracy.toFixed(0)}m accuracy`, 'success');
+        
+        setTimeout(() => {
+          gpsBtn.innerHTML = '🛰️ Get GPS';
+          gpsBtn.disabled = false;
+        }, 2000);
+      }, (error) => {
+        gpsBtn.innerHTML = '🛰️ Get GPS';
+        gpsBtn.disabled = false;
+        showLocationStatus('❌ Unable to fetch GPS coordinates. Please check permissions.', 'error');
+      });
+    });
+    
+    function showLocationStatus(message, type) {
+      locationStatus.textContent = message;
+      locationStatus.className = `notification-item ${type}`;
+      locationStatus.style.display = 'block';
+      
+      if (type === 'success') {
+        setTimeout(() => {
+          locationStatus.style.display = 'none';
+        }, 3000);
+      }
+    }
+    
+    // Enhanced file upload with drag & drop
+    const uploadArea = document.getElementById('upload-area');
+    const fileInput = document.getElementById('crack-image');
+    const imagePreview = document.getElementById('image-preview');
+    const analyzeBtn = document.getElementById('analyze-btn');
+    const aiAnalysis = document.getElementById('ai-analysis');
+    
+    uploadArea.addEventListener('click', () => fileInput.click());
+    
+    uploadArea.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadArea.classList.add('dragover');
+    });
+    
+    uploadArea.addEventListener('dragleave', () => {
+      uploadArea.classList.remove('dragover');
+    });
+    
+    uploadArea.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadArea.classList.remove('dragover');
+      const files = e.dataTransfer.files;
+      if (files.length > 0) {
+        fileInput.files = files;
+        handleFileUpload(files[0]);
+      }
+    });
+    
+    fileInput.addEventListener('change', (e) => {
+      if (e.target.files.length > 0) {
+        handleFileUpload(e.target.files[0]);
+      }
+    });
+    
+    function handleFileUpload(file) {
+      if (!file.type.startsWith('image/')) {
+        alert('Please select an image file.');
+        return;
+      }
+      
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        imagePreview.innerHTML = `
+          <img src="${e.target.result}" alt="Preview" style="max-width: 100%; height: auto; border-radius: 12px; margin-top: 16px;">
+          <div class="upload-info" style="margin-top: 12px; font-size: 14px; color: var(--muted);">
+            <p><strong>📁 File:</strong> ${file.name}</p>
+            <p><strong>📏 Size:</strong> ${(file.size / 1024 / 1024).toFixed(2)} MB</p>
+            <p><strong>🖼️ Type:</strong> ${file.type}</p>
+          </div>
+        `;
+        imagePreview.style.display = 'block';
+        analyzeBtn.disabled = false;
+        analyzeBtn.style.opacity = '1';
+      };
+      reader.readAsDataURL(file);
+    }
+    
+    // AI Analysis simulation
+    analyzeBtn.addEventListener('click', () => {
+      if (!fileInput.files.length) {
+        alert('Please upload an image first.');
+        return;
+      }
+      
+      analyzeBtn.innerHTML = '<span class="loading"></span> Analyzing...';
+      analyzeBtn.disabled = true;
+      
+      // Simulate AI processing
+      setTimeout(() => {
+        const confidence = Math.floor(Math.random() * 20) + 80; // 80-99%
+        const length = (Math.random() * 50 + 10).toFixed(1); // 10-60mm
+        const width = (Math.random() * 5 + 1).toFixed(1); // 1-6mm
+        
+        document.getElementById('confidence-text').textContent = confidence + '%';
+        document.getElementById('confidence-fill').style.width = confidence + '%';
+        document.getElementById('length_mm').value = length;
+        document.getElementById('width_mm').value = width;
+        
+        // Set analysis results based on crack size
+        const severity = width > 3 ? 'High' : width > 2 ? 'Moderate' : 'Low';
+        const priority = width > 3 ? 'High' : width > 2 ? 'Medium' : 'Low';
+        const action = width > 3 ? 'Immediate Repair' : width > 2 ? 'Schedule Repair' : 'Monitor';
+        
+        document.getElementById('severity').textContent = severity;
+        document.getElementById('priority').textContent = priority;
+        document.getElementById('action').textContent = action;
+        
+        aiAnalysis.style.display = 'block';
+        analyzeBtn.innerHTML = '✅ Analysis Complete';
+        
+        setTimeout(() => {
+          analyzeBtn.innerHTML = '🔍 Re-analyze';
+          analyzeBtn.disabled = false;
+        }, 2000);
+      }, 3000);
+    });
+    
+    // Submit handler to confirm modal
+    document.getElementById('confirmSubmitBtn')?.addEventListener('click', () => {
+      closeModal('confirmSubmit');
+      document.querySelector('form').submit();
+    });
+    
+    // Initialize theme
+    document.addEventListener('DOMContentLoaded', () => {
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      const themeIcon = document.getElementById('theme-icon');
+      if (themeIcon) {
+        themeIcon.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+      }
+    });
+  </script>
+  <script type="module">
+    import { openModal, closeModal, toggleTheme, handleImageUpload } from '{{ url_for('static', filename='app.js') }}';
+    window.openModal = openModal;
+    window.closeModal = closeModal;
+    window.toggleTheme = toggleTheme;
+    window.handleImageUpload = handleImageUpload;
+  </script>
+  <script type="module" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
